@@ -27,7 +27,6 @@ function RegistrationForm(props) {
             }
             axios.post(API_BASE_URL+'/user/register', payload)
                 .then(function (response) {
-                    console.log(response.status, response);
                     if(response.status === 200){
                         localStorage.setItem('login_access_token',response.data.token);
                         setState(prevState => ({
