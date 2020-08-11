@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background: #343a40;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quiz-title {
+  font-size: 3.5rem;
+  font-style: italic;
+}
+.quiz-description {
+  font-size: 1.5rem;
+}
+.quiz-container {
+  height: 100vh;
+}
+.hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 80vw;
+  background: #3b4b74;
+  color: white;
+  max-width: 500px;
+  text-align: center;
+}
+
+.card-header {
+  text-align: left;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.questions-text {
+  font-size: 17px;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 17px;
+}
+
+.form-check {
+  margin-left: auto;
+  margin-right: 17px;
+  margin-bottom: 3px;
+}
+
+.btn {
+  min-width: 100px;
+}
+
+.correct-answer-info {
+  text-align: left;
+  width: 80%;
+}
+
+.loader {
+  min-height: 200px;
+  min-width: 50vw;
+}
+
+.final-score {
+  min-height: 60vh;
+  min-width: 50vw;
+}
+
+.modal {
+  color: black;
+}
+
+.modal-container {
+  margin-top: 40px;
+  min-height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-container {
+    min-height: 80vh;
+  }  
+}
+
